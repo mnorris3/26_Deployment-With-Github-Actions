@@ -11,7 +11,7 @@ export default function Calculator() {
 
   const handleAddClick = () => {
     setCalcState({ total: calcState.total + value, previousTotal: calcState.total});
-  };;
+  }
 
   return (
     <div className="calculator">
